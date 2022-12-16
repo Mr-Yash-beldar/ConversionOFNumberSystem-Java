@@ -4,7 +4,6 @@ import java.util.*;
 
 public class ConvDec2Bin {
 
-  
     public static void main(String args[]) {
     int num, counter = 0;
     Scanner sc = new Scanner(System.in);
@@ -21,7 +20,6 @@ public class ConvDec2Bin {
     }
 
     //print binary values stored in binaryVal
-    
     for (int i = counter - 1; i >= 0; i--) {
       System.out.print(binaryVal[i]);
     }
