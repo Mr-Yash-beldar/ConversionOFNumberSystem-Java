@@ -2,9 +2,10 @@
 
 import java.util.*;
 
-public class ConvDec2Bin {
-
-    public static void main(String args[]) {
+public class ConvDec2Bin 
+{
+    public static void main(String args[])
+    {
     int num, counter = 0;
     Scanner sc = new Scanner(System.in);
 

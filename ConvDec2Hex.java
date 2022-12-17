@@ -4,7 +4,6 @@ import java.util.*;
 
 public class ConvDec2Hex {
   public static void main(String[] args) {
-
     int num, counter = 0;
     Scanner sc = new Scanner(System.in);
 
@@ -41,7 +40,6 @@ public class ConvDec2Hex {
       }
       num = num / 16;
     }
-
     for (counter = hexVal.length() - 1; counter >= 0; counter--)
       System.out.print(hexVal.charAt(counter));
   }

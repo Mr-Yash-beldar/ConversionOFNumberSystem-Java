@@ -1,8 +1,8 @@
 // java program to convert decimal to octal
 
 import java.util.*;
-
 public class ConvDec2Oct {
+  
   public static void main(String args[]) {
     int num, counter = 0;
     Scanner sc = new Scanner(System.in);
